@@ -28,7 +28,7 @@ object FrmFichaTecnica: TFrmFichaTecnica
     Width = 992
     Height = 454
     Cursor = crHandPoint
-    ActivePage = Tab_1
+    ActivePage = Tab_0
     Align = alClient
     Font.Charset = ANSI_CHARSET
     Font.Color = clWindowText
@@ -42,10 +42,6 @@ object FrmFichaTecnica: TFrmFichaTecnica
     OnEnter = Tab_PrincipalEnter
     object Tab_0: TTabSheet
       Caption = 'Refer'#234'ncia'
-      ExplicitLeft = 0
-      ExplicitTop = 0
-      ExplicitWidth = 0
-      ExplicitHeight = 0
       object GroupBox1: TGroupBox
         Left = 0
         Top = 0
@@ -1646,10 +1642,6 @@ object FrmFichaTecnica: TFrmFichaTecnica
     object Tab_1: TTabSheet
       Caption = 'Tecidos e Mat'#233'rias Primas'
       ImageIndex = 3
-      ExplicitLeft = 0
-      ExplicitTop = 0
-      ExplicitWidth = 0
-      ExplicitHeight = 0
       object Panel1: TPanel
         Left = 0
         Top = 0
@@ -2417,10 +2409,6 @@ object FrmFichaTecnica: TFrmFichaTecnica
     object Tab_2: TTabSheet
       Caption = 'Processos e M'#225'quinas'
       ImageIndex = 1
-      ExplicitLeft = 0
-      ExplicitTop = 0
-      ExplicitWidth = 0
-      ExplicitHeight = 0
       object GroupBox10: TGroupBox
         Left = 0
         Top = 52
@@ -2542,11 +2530,12 @@ object FrmFichaTecnica: TFrmFichaTecnica
             object Label9: TLabel
               Left = 1
               Top = 1
-              Width = 135
+              Width = 309
               Height = 13
               Align = alTop
               Alignment = taCenter
               Caption = 'Instru'#231#245'es do Processo:'
+              ExplicitWidth = 135
             end
             object Panel15: TPanel
               Left = 1
@@ -2597,7 +2586,7 @@ object FrmFichaTecnica: TFrmFichaTecnica
             Font.Name = 'Tahoma'
             Font.Style = []
             PanelHeight = 110
-            PanelWidth = 643
+            PanelWidth = 644
             ParentFont = False
             TabOrder = 2
             object Panel18: TPanel
@@ -2691,7 +2680,7 @@ object FrmFichaTecnica: TFrmFichaTecnica
             object GroupBox17: TGroupBox
               Left = 214
               Top = 0
-              Width = 429
+              Width = 430
               Height = 110
               Align = alClient
               Caption = 'Instru'#231#245'es'
@@ -2699,7 +2688,7 @@ object FrmFichaTecnica: TFrmFichaTecnica
               object DBMemo3: TDBMemo
                 Left = 2
                 Top = 15
-                Width = 425
+                Width = 426
                 Height = 93
                 Align = alClient
                 DataField = 'INSTRUCOES'
@@ -2968,10 +2957,6 @@ object FrmFichaTecnica: TFrmFichaTecnica
     object Tab_3: TTabSheet
       Caption = 'Etapas/Medidas/Instru'#231#245'es Gerais'
       ImageIndex = 5
-      ExplicitLeft = 0
-      ExplicitTop = 0
-      ExplicitWidth = 0
-      ExplicitHeight = 0
       object Panel3: TPanel
         Left = 0
         Top = 52
@@ -3435,10 +3420,6 @@ object FrmFichaTecnica: TFrmFichaTecnica
     object TabSheet1: TTabSheet
       Caption = 'Modelagem (fotos)'
       ImageIndex = 4
-      ExplicitLeft = 0
-      ExplicitTop = 0
-      ExplicitWidth = 0
-      ExplicitHeight = 0
       object Panel7: TPanel
         Left = 0
         Top = 52
@@ -4068,9 +4049,10 @@ object FrmFichaTecnica: TFrmFichaTecnica
       ExplicitWidth = 992
       ExplicitHeight = 36
       inherited LblBarraTitulo: TLabel
-        Width = 261
+        Width = 990
+        Height = 34
         Caption = 'Ficha T'#233'cnica de Produto Acabado'
-        ExplicitWidth = 261
+        ExplicitWidth = 262
       end
     end
   end
@@ -4895,7 +4877,7 @@ object FrmFichaTecnica: TFrmFichaTecnica
     Top = 216
   end
   object frxR_FichaTecnica: TfrxReport
-    Version = '5.1.8'
+    Version = '5.2.8'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick, pbNoFullScreen]
@@ -7194,7 +7176,7 @@ object FrmFichaTecnica: TFrmFichaTecnica
     Top = 88
   end
   object frxReportImagem: TfrxReport
-    Version = '5.1.8'
+    Version = '5.2.8'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick, pbNoFullScreen]
@@ -9480,7 +9462,7 @@ object FrmFichaTecnica: TFrmFichaTecnica
     Top = 208
   end
   object frxFichaCusto: TfrxReport
-    Version = '5.1.8'
+    Version = '5.2.8'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick, pbNoFullScreen]
@@ -12111,23 +12093,26 @@ object FrmFichaTecnica: TFrmFichaTecnica
   end
   object SP_MarkupAplicar: TFDStoredProc
     Connection = FrmPrincipal.DBConexao
-    StoredProcName = 'SPTOTALIZAREFENCIA_MARKUP;1'
+    StoredProcName = 'VESTIS.dbo.SPTOTALIZAREFENCIA_MARKUP'
     Left = 752
     Top = 424
     ParamData = <
       item
-        Name = 'RETURN_VALUE'
+        Position = 1
+        Name = '@RETURN_VALUE'
         DataType = ftInteger
         ParamType = ptResult
         Value = 0
       end
       item
-        Name = 'CODIGO'
+        Position = 2
+        Name = '@CODIGO'
         DataType = ftInteger
         ParamType = ptInput
       end
       item
-        Name = 'NMARKUP'
+        Position = 3
+        Name = '@NMARKUP'
         DataType = ftInteger
         ParamType = ptInput
       end>

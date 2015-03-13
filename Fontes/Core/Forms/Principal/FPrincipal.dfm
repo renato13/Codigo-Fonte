@@ -2728,7 +2728,7 @@ object FrmPrincipal: TFrmPrincipal
         Caption = 'Ajuda'
         Page = RBP_Ajuda
       end>
-    TabIndex = 1
+    TabIndex = 9
     DesignSize = (
       1020
       143)
@@ -2811,6 +2811,69 @@ object FrmPrincipal: TFrmPrincipal
         ActionManager = ActionMenus
         Caption = 'Servidor'
         GroupIndex = 1
+      end
+    end
+    object RBP_Cadastros: TRibbonPage
+      Left = 0
+      Top = 50
+      Width = 1019
+      Height = 93
+      Caption = 'Cadastro'
+      Index = 1
+      object RibbonGroup4: TRibbonGroup
+        Left = 4
+        Top = 3
+        Width = 284
+        Height = 86
+        ActionManager = ActionMenus
+        Caption = 'Clientes'
+        GroupAlign = gaHorizontal
+        GroupIndex = 0
+      end
+      object RibbonGroup5: TRibbonGroup
+        Left = 290
+        Top = 3
+        Width = 142
+        Height = 86
+        ActionManager = ActionMenus
+        Caption = 'Fornecedor'
+        GroupIndex = 1
+      end
+      object RibbonGroup7: TRibbonGroup
+        Left = 434
+        Top = 3
+        Width = 95
+        Height = 86
+        ActionManager = ActionMenus
+        Caption = 'Representantes'
+        GroupIndex = 2
+      end
+      object RibbonGroup8: TRibbonGroup
+        Left = 531
+        Top = 3
+        Width = 98
+        Height = 86
+        ActionManager = ActionMenus
+        Caption = 'Transportes'
+        GroupIndex = 3
+      end
+      object rgrCadastrosGerais: TRibbonGroup
+        Left = 631
+        Top = 3
+        Width = 583
+        Height = 86
+        ActionManager = ActionMenus
+        Caption = 'Cadastros Auxiliares'
+        GroupIndex = 4
+      end
+      object RibbonGroup10: TRibbonGroup
+        Left = 1216
+        Top = 3
+        Width = 147
+        Height = 86
+        ActionManager = ActionMenus
+        Caption = 'Cadastro de Contas'
+        GroupIndex = 5
       end
     end
     object RBP_Produtos: TRibbonPage
@@ -3155,69 +3218,6 @@ object FrmPrincipal: TFrmPrincipal
         ActionManager = ActionMenus
         Caption = 'Sobre o Sistema'
         GroupIndex = 0
-      end
-    end
-    object RBP_Cadastros: TRibbonPage
-      Left = 0
-      Top = 50
-      Width = 1019
-      Height = 93
-      Caption = 'Cadastro'
-      Index = 1
-      object RibbonGroup4: TRibbonGroup
-        Left = 4
-        Top = 3
-        Width = 284
-        Height = 86
-        ActionManager = ActionMenus
-        Caption = 'Clientes'
-        GroupAlign = gaHorizontal
-        GroupIndex = 0
-      end
-      object RibbonGroup5: TRibbonGroup
-        Left = 290
-        Top = 3
-        Width = 142
-        Height = 86
-        ActionManager = ActionMenus
-        Caption = 'Fornecedor'
-        GroupIndex = 1
-      end
-      object RibbonGroup7: TRibbonGroup
-        Left = 434
-        Top = 3
-        Width = 95
-        Height = 86
-        ActionManager = ActionMenus
-        Caption = 'Representantes'
-        GroupIndex = 2
-      end
-      object RibbonGroup8: TRibbonGroup
-        Left = 531
-        Top = 3
-        Width = 98
-        Height = 86
-        ActionManager = ActionMenus
-        Caption = 'Transportes'
-        GroupIndex = 3
-      end
-      object rgrCadastrosGerais: TRibbonGroup
-        Left = 631
-        Top = 3
-        Width = 583
-        Height = 86
-        ActionManager = ActionMenus
-        Caption = 'Cadastros Auxiliares'
-        GroupIndex = 4
-      end
-      object RibbonGroup10: TRibbonGroup
-        Left = 1216
-        Top = 3
-        Width = 147
-        Height = 86
-        ActionManager = ActionMenus
-        Caption = 'Cadastro de Contas'
-        GroupIndex = 5
       end
     end
   end
@@ -5232,7 +5232,7 @@ object FrmPrincipal: TFrmPrincipal
     Left = 668
     Top = 190
     Bitmap = {
-      494C010103009C129C1210001000FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
+      494C01010300A012A01210001000FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000001000000001002000000000000010
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000005040330241E19806C5C4DDFA79484FFD1C4B7FFECE2
@@ -5378,7 +5378,7 @@ object FrmPrincipal: TFrmPrincipal
     Left = 564
     Top = 190
     Bitmap = {
-      494C01017800FC14FC1420002000FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
+      494C010178000015001520002000FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
       000000000000360000002800000080000000E0030000010020000000000000C0
       0700000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
@@ -21780,7 +21780,7 @@ object FrmPrincipal: TFrmPrincipal
     Left = 247
     Top = 262
     Bitmap = {
-      494C01010A005415541520002000FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
+      494C01010A005815581520002000FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600
       00000000000036000000280000008000000060000000010020000000000000C0
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000

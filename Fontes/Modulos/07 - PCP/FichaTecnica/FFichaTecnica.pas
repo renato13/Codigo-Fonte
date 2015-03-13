@@ -597,8 +597,7 @@ end;
 procedure TFrmFichaTecnica.SpeedButton6Click(Sender: TObject);
 begin
 
-   if empty(BaseDados_PCP.db_referencias.FieldByname('REFERENCIA')
-     .AsString) Then
+   if empty(BaseDados_PCP.db_referencias.FieldByname('REFERENCIA').AsString) Then
    begin
       TratarErros('Não há produto na tela para vincular foto.');
       Exit;
