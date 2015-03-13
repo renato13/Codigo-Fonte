@@ -1,0 +1,65 @@
+package EditDialog;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO OFF}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'dbEdit Dialog Search'}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl,
+  designide,
+  dbrtl,
+  vcldb,
+  vclimg,
+  FireDACCommon,
+  FireDAC,
+  FireDACCommonDriver;
+
+contains
+  fEstSearchDialog in 'fEstSearchDialog.pas',
+  fEstSearchDialogAbout in 'fEstSearchDialogAbout.pas',
+  fEstSearchDialogBaseEditor in 'fEstSearchDialogBaseEditor.pas',
+  fEstSearchDialogEditor in 'fEstSearchDialogEditor.pas',
+  fEstSearchDialogEditorFieldGeneration in 'fEstSearchDialogEditorFieldGeneration.pas',
+  fEstSearchDialogEditorQueryResult in 'fEstSearchDialogEditorQueryResult.pas',
+  fEstSearchDialogPresetCustomize in 'fEstSearchDialogPresetCustomize.pas',
+  fEstSearchDialogTemplateEditor in 'fEstSearchDialogTemplateEditor.pas',
+  IDBEdit in 'IDBEdit.pas',
+  uEstSearchDialog in 'uEstSearchDialog.pas',
+  uEstSearchDialogConst in 'uEstSearchDialogConst.pas',
+  uEstSearchDialogDateUtils in 'uEstSearchDialogDateUtils.pas',
+  uEstSearchDialogDefaults in 'uEstSearchDialogDefaults.pas',
+  uEstSearchDialogEditors in 'uEstSearchDialogEditors.pas',
+  uEstSearchDialogEditorsZeos in 'uEstSearchDialogEditorsZeos.pas',
+  uEstSearchDialogFunction in 'uEstSearchDialogFunction.pas',
+  uEstSearchDialogIntl in 'uEstSearchDialogIntl.pas',
+  uEstSearchDialogProperties in 'uEstSearchDialogProperties.pas',
+  uEstSearchDialogRegister in 'uEstSearchDialogRegister.pas',
+  uEstSearchDialogTypes in 'uEstSearchDialogTypes.pas',
+  uEstSearchDialogZeos in 'uEstSearchDialogZeos.pas',
+  uEstSearchDialogZeosRegister in 'uEstSearchDialogZeosRegister.pas';
+
+end.

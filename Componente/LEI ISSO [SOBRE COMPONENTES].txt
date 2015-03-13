@@ -1,0 +1,10 @@
+Componentes usados são:
+
+Proprio:
+EditDialog - Codigo-fonte livre.
+
+
+De terceiros (pagos):
+FastReport - DELPHI XE7
+QuickReport - DELPHI XE7
+
