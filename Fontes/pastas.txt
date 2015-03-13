@@ -1,0 +1,146 @@
+
+PASTAS:
+
+----Core
+|   ----App
+|   ----Classes
+|   ----DataModule
+|   ----Forms
+|       ----AtivarSistema
+|       ----AvisoSistema
+|       ----Frames
+|       ----Principal
+|       ----Splash
+----Modulos
+    ----01 - Arquivo
+    |   ----Empresa
+    |   ----Etiquetas
+    |   ----Login
+    |   ----Moeda
+    |   ----Parametros
+    |   ----Rede_Servidor
+    |   ----RichEdit
+    |   ----Usuarios
+    ----02 - Cadastros
+    |   ----Atividades
+    |   ----Carteira.Cobranca
+    |   ----CEP
+    |   ----Cidades
+    |   ----Clientes
+    |   |   ----Relatorios
+    |   ----Departamentos
+    |   ----FormaPagto
+    |   ----Fornecedor
+    |   |   ----Relatorios
+    |   ----Generos
+    |   ----Markup
+    |   ----MotivoBaixas
+    |   ----Regioes
+    |   ----Transportadora
+    |   ----Veiculos
+    |   |   ----Relatorios
+    |   ----Vendedor
+    |       ----Relatorios
+    ----03 - Fiscal
+    |   ----CFOP
+    |   ----Classifica‡ao Fiscal
+    |   ----Demonstrativo
+    |   ----Plano_de_Contas
+    |   ----Situa‡Æo Tribut ria
+    ----04 - Produtos
+    |   ----Etiquetas
+    |   ----Grupo
+    |   ----PesquisaPrecos
+    |   ----Produtos
+    |   ----ReajustePreco
+    |   ----Relatorios
+    |   ----Subgrupo
+    |   ----Tabela
+    |   ----TabelaNCM
+    |   ----TipoProdutos
+    ----05 - Compras
+    |   ----CodigoBarras
+    |   ----ComprasPagar
+    |   ----Etiquetas
+    |   ----NotaFiscalEntrada
+    |   |   ----Relatorios
+    |   ----PedidoCompra
+    ----06 - Terceirizados
+    |   ----Pagamentos
+    |   ----Relatorios
+    |   ----Remessa
+    |   ----Tabela de Precos
+    ----07 - PCP
+    |   ------Ordem.Corte
+    |   ----Andamento.Producao
+    |   ----Celula
+    |   ----Colecao
+    |   ----Cores
+    |   ----Custos
+    |   ----Defeitos
+    |   ----Etiquetas
+    |   ----FaixaEtaria
+    |   ----Fases
+    |   ----FichaTecnica
+    |   ----Grifes
+    |   ----Lote.Producao
+    |   ----Maquinas
+    |   ----Ordem.Producao
+    |   ----Processos
+    |   ----Processos.Maquinas
+    |   ----Processos.Operadores
+    |   ----Qualidades
+    |   ----Relatorios
+    |   ----Tamanhos
+    |   ----TamanhosGrade
+    |   ----Turnos
+    ----08 - Vendas
+    |   ----Codigobarra
+    |   ----Faturamento
+    |   ----Gerar_parcelas
+    |   ----NotaFiscal
+    |   ----OrdemServicos
+    |   ----PedidoVenda
+    |   |   ----Relatorios
+    |   ----PedidoVenda - Conferencia
+    |   ----Romaneio
+    |   ----TipoVenda
+    |   ----VendaExpressa
+    ----09 - Financeiro
+    |   ----Bancos
+    |   ----Boletos
+    |   ----Caixa
+    |   |   ----Relatorios
+    |   ----Carnes
+    |   ----Cartas
+    |   |   ----Relatorios
+    |   ----Cheques
+    |   |   ----Relatorios
+    |   ----Cobran‡aAgendar
+    |   |   ----Relatorios
+    |   ----Comissoes
+    |   |   ----Relatorios
+    |   ----ConciliacaoBancaria
+    |   ----Contas
+    |   ----Contas.Pagar
+    |   |   ----Relatorios
+    |   ----Contas.Pagar.Substituir.Titulo
+    |   ----Contas.Receber
+    |   |   ----Relatorios
+    |   ----Contas.Receber.Bordero
+    |   ----Conta_Corrente
+    |   ----ControleBancario
+    |   |   ----Relatorios
+    |   ----Duplicatas
+    |   ----FechamentoCaixa
+    |   |   ----Relatorios
+    |   ----Recibo
+    |   |   ----Relatorios
+    |   ----Transferencia
+    ----10 - Expedi‡Æo
+    |   ----Entrega
+    |       ----Relatorios
+    ----11 - Ajuda
+        ----About
+        ----Ajuda
+        ----Calendario
