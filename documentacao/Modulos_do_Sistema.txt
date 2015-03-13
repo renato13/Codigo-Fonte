@@ -1,0 +1,15 @@
+ALGUMAS INFORMACOES:
+ - Linguagem Delphi XE5;
+ - Banco de dados SQL Server 2012;
+ - Interliga Matriz com filiais via acesso remoto (dispensa "Terminal Service");
+ - Multiempresa e MultiusuArio;
+ - Interface Ribbon;
+ - Comercial;
+ - Compras;
+ - Estoque;
+ - PCP/MRP;
+ - Faturamento (NF-e);
+ - Financeiro;
+ - Logistica;
+ - Relatorios;
+ 
